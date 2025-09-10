@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manos de Medellín - Artesanía Única</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f3e9;
+            color: #4a2c2a;
+        }
+        .text-brown-custom {
+            color: #4a2c2a;
+        }
+        .bg-brown-custom {
+            background-color: #4a2c2a;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Hero Section -->
+    <header class="relative overflow-hidden h-screen bg-cover bg-center flex items-center justify-center text-white" style="background-image: url('https://placehold.co/1920x1080/6b4d3f/ffffff?text=Artesanias+Medellin');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative z-10 text-center p-4 md:p-8 rounded-lg bg-black bg-opacity-40">
+            <h1 class="text-3xl md:text-6xl font-extrabold tracking-tight mb-4 drop-shadow-lg">Manos de Medellín</h1>
+            <p class="text-base md:text-xl max-w-2xl mx-auto drop-shadow-md">
+                Donde la tradición se encuentra con la creatividad. Descubre la belleza de la artesanía colombiana hecha a mano con amor.
+            </p>
+            <button class="mt-8 px-6 py-3 bg-white text-brown-custom rounded-full font-semibold hover:bg-gray-200 transition-colors duration-300 transform hover:scale-105 shadow-lg">
+                Explorar Colección
+            </button>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <section id="productos" class="py-16 md:py-24 px-4 bg-white">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-4 text-brown-custom">Nuestros Productos Únicos</h2>
+            <p class="text-lg md:text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+                Cada pieza es una historia, una obra de arte creada por manos talentosas de la región.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product Card 1 -->
+                <div class="bg-f7f3e9 p-6 rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/8d6b4d/ffffff?text=Cerámica" alt="Cerámica artesanal" class="w-full h-48 object-cover rounded-xl mb-4 shadow-sm">
+                    <h3 class="text-xl font-bold text-brown-custom mb-2">Jarrón de Cerámica</h3>
+                    <p class="text-gray-600 mb-4">Un jarrón pintado a mano con diseños inspirados en la flora de Antioquia.</p>
+                    <button class="px-5 py-2 w-full bg-brown-custom text-white rounded-full font-medium hover:bg-gray-800 transition-colors">
+                        Ver detalles
+                    </button>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="bg-f7f3e9 p-6 rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/a3886b/ffffff?text=Tejidos" alt="Tejido de macramé" class="w-full h-48 object-cover rounded-xl mb-4 shadow-sm">
+                    <h3 class="text-xl font-bold text-brown-custom mb-2">Tapiz de Macramé</h3>
+                    <p class="text-gray-600 mb-4">Un tapiz de algodón tejido a mano para dar un toque bohemio a tu hogar.</p>
+                    <button class="px-5 py-2 w-full bg-brown-custom text-white rounded-full font-medium hover:bg-gray-800 transition-colors">
+                        Ver detalles
+                    </button>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="bg-f7f3e9 p-6 rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/c7b299/ffffff?text=Madera" alt="Joyero de madera" class="w-full h-48 object-cover rounded-xl mb-4 shadow-sm">
+                    <h3 class="text-xl font-bold text-brown-custom mb-2">Joyero de Madera Tallada</h3>
+                    <p class="text-gray-600 mb-4">Una caja de madera tallada con intrincados diseños geométricos.</p>
+                    <button class="px-5 py-2 w-full bg-brown-custom text-white rounded-full font-medium hover:bg-gray-800 transition-colors">
+                        Ver detalles
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="py-16 md:py-24 px-4 bg-f7f3e9">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <img src="https://placehold.co/600x400/9e7c65/ffffff?text=Artesano+Trabajando" alt="Artesano trabajando en su taller" class="w-full rounded-2xl shadow-xl transform hover:scale-105 transition-transform duration-300">
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-3xl md:text-5xl font-extrabold mb-4 text-brown-custom">Conoce a Nuestros Artesanos</h2>
+                <p class="text-lg md:text-xl text-gray-600 mb-6">
+                    Detrás de cada pieza hay un artesano apasionado. Valoramos el talento local y nos enorgullece promover el arte tradicional de Medellín.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    Nuestros artesanos han perfeccionado sus oficios a lo largo de generaciones, transmitiendo técnicas ancestrales y fusionándolas con la innovación. Cada compra que realizas apoya directamente a estas familias y a la preservación de su herencia cultural.
+                </p>
+                <button class="mt-8 px-6 py-3 bg-brown-custom text-white rounded-full font-semibold hover:bg-gray-800 transition-colors duration-300 transform hover:scale-105 shadow-lg">
+                    Nuestra Historia
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-16 md:py-24 px-4 bg-white">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-4 text-brown-custom">Contáctanos</h2>
+            <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                ¿Tienes alguna pregunta, una idea para un pedido personalizado, o simplemente quieres saludar?
+            </p>
+            <div class="max-w-lg mx-auto p-8 bg-f7f3e9 rounded-2xl shadow-lg">
+                <form>
+                    <div class="mb-6 text-left">
+                        <label for="name" class="block text-gray-700 font-semibold mb-2">Nombre</label>
+                        <input type="text" id="name" class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-brown-custom transition-colors" placeholder="Tu nombre">
+                    </div>
+                    <div class="mb-6 text-left">
+                        <label for="email" class="block text-gray-700 font-semibold mb-2">Correo Electrónico</label>
+                        <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-brown-custom transition-colors" placeholder="tucorreo@ejemplo.com">
+                    </div>
+                    <div class="mb-6 text-left">
+                        <label for="message" class="block text-gray-700 font-semibold mb-2">Mensaje</label>
+                        <textarea id="message" rows="4" class="w-full px-4 py-3 rounded-lg border-2 border-300 focus:outline-none focus:border-brown-custom transition-colors" placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full px-6 py-3 bg-brown-custom text-white rounded-full font-semibold hover:bg-gray-800 transition-colors duration-300 transform hover:scale-105 shadow-lg">
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brown-custom text-white py-8 px-4 text-center rounded-t-xl">
+        <div class="max-w-7xl mx-auto">
+            <p>&copy; 2024 Manos de Medellín. Todos los derechos reservados.</p>
+            <p class="mt-2 text-sm text-gray-400">Hecho con pasión en Medellín, Colombia.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
